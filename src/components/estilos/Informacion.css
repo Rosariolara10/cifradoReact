@@ -1,0 +1,68 @@
+/* Estilos específicos para el componente de información */
+.containerInfo {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #000000;
+  }
+  
+  h2 {
+    font-family: 'Lora', serif;
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 10px;
+    text-align: left;
+  }
+  
+  p {
+    font-family: 'Lora', serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #000000;
+    text-align: left;
+  }
+  
+  ul {
+    list-style-type: disc; /* Utiliza viñetas (puntos) */
+    margin-left: 20px; /* Desplaza la lista a la derecha */
+    text-align: left;
+  }
+  
+  li {
+    font-family: 'Lora', serif;
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+  }
+  
+  strong {
+    color: #000000;
+  }
+  
+  .personalInfo {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #000000;
+    background-color: #f1f1f1;
+    text-align: center; /* Centrar el texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrar los elementos horizontalmente */
+}
+
+.personalInfo h3 {
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    color: #000000;
+    margin-bottom: 2px;
+}
+
+.personalInfo p {
+  font-family: 'Lora', serif;
+    font-size: 1.1em;
+    margin-bottom: 2px;
+    color: #000000;
+}

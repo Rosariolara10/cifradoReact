@@ -1,38 +1,62 @@
+/* General */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  margin-top: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Estilos para el botón de menú desplegable */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.dropdown-button {
+  padding: 10px 20px;
+  background-color: #00796b;
   color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.dropdown-button:hover {
+  background-color: #005f56;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  background-color: #f0f4f8;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  z-index: 1;
+}
+
+.dropdown-menu li {
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-bottom: 1px solid #d1e7e0;
+}
+
+.dropdown-menu li:last-child {
+  border-bottom: none;
+}
+
+.dropdown-menu li:hover {
+  background-color: #d1e7e0;
+}
+
+.dropdown-menu li.active {
+  background-color: #00796b;
+  color: white;
 }
